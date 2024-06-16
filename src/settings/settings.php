@@ -22,7 +22,21 @@ else {
 	$year2 = date("Y") + 1;
 }
 
-$months = ["Januar", "Februar", "März", "April", "Mai", "Juni", "Juli", "August", "September", "Oktober", "November", "Dezember"];
+$months = [
+    1 => "Januar",
+    2 => "Februar",
+    3 => "März",
+    4 => "April",
+    5 => "Mai",
+    6 => "Juni",
+    7 => "Juli",
+    8 => "August",
+    9 => "September",
+    10 => "Oktober",
+    11 => "November",
+    12 => "Dezember",
+];
+
 $weekdays = ["Mo", "Di", "Mi", "Do", "Fr", "Sa", "So"];
 
 ?>

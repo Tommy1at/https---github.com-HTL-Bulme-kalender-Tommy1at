@@ -46,6 +46,11 @@ body h1, .month h2 {
     border: 1px solid #7AAACD;
 }
 
+.hol {
+    background-color: #F3FAA5;
+    border: 1px solid #7AAACD;
+}
+
 .past {
     background-color: #cccccc;
     color: #666666;

@@ -1,0 +1,52 @@
+body h1, .month h2 {
+    text-align: center;
+}
+
+.cal {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 25px;
+}
+
+.month {
+    display: flex;
+    flex: 1 1 20%;
+    flex-direction: column;
+    min-width: 20em;
+    border: 1px solid #7AAACD;
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.weekday {
+    font-weight: bold;
+    background-color: #7AAACD;
+}
+
+.days, .weekdays {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.day, .weekday {
+    display: flex;
+    width: 14.285%;
+    padding: 5px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.days {
+    text-align: right;
+}
+
+.eve {
+    background-color: #F3FAA5;
+    border: 1px solid #7AAACD;
+}
+
+.past {
+    background-color: #cccccc;
+    color: #666666;
+}
